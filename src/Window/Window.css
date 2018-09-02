@@ -1,0 +1,38 @@
+.win-container {
+	flex: 3;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.win-title {
+	text-align: center;
+}
+.win-subtitle {
+	margin-left: 15px;
+	align-self: flex-start;
+}
+.win-items {
+	display: block;
+	width: 90%;
+	font-family: 'Alegreya Sans';
+}
+.back-button {
+	cursor: pointer;
+}
+.back-button:hover {
+	font-weight: bolder;
+}
+@media screen and (max-width: 600px) {
+	.win-title {
+		font-size: 1em;
+	}
+	.win-subtitle {
+		font-size: 0.7em;
+		flex-wrap: wrap;
+	}
+	.win-container {
+		max-width: 55vw;
+	}
+}

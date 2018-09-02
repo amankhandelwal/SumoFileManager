@@ -1,0 +1,28 @@
+.win-item-container {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 10%;
+	width: 95%;
+	height: 35px;
+	text-align: left;
+	align-items: center;
+	color: #444;
+}
+.win-item-name {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.hoverable:hover {
+	cursor: pointer;
+	background-color: #ddd;
+}
+
+@media screen and (max-width: 600px) {
+	.win-item-title {
+		font-size: 0.9em;
+	}
+	.win-item-subtitle {
+		font-size: 0.9em;
+	}
+}

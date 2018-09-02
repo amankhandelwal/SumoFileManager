@@ -1,0 +1,22 @@
+.App {
+	display: flex;
+	flex-direction: column;
+	width: 98vw;
+}
+.app-body {
+	display: flex;
+	min-height: 80vh;
+	justify-content: flex-start;
+}
+.icon-img {
+	width: 20px;
+	height: 20px;
+	padding: 10px;
+}
+@media screen and (max-width: 600px) {
+	.icon-img {
+		width: 17px;
+		height: 17px;
+		padding: 5px;
+	}
+}

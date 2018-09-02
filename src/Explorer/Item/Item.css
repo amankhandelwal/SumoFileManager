@@ -1,0 +1,38 @@
+.item-container {
+	display: block;
+	color: black;
+	font-family: 'Alegreya Sans';
+}
+.item-name {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	cursor: pointer;
+}
+.item-name:hover {
+	color: white;
+	font-weight: bolder;
+}
+.item-title {
+	font-size: 1em;
+	font-weight: 200;
+	margin-right: 10px;
+}
+.item-inner-content {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+	.item-title {
+		margin-right: 2px;
+		font-size: 0.7em;
+	}
+	.file-name {
+		font-size: 0.7em;
+	}
+	..item-inner-content {
+		margin-left: 2px;
+	}
+}
