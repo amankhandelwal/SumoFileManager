@@ -21,7 +21,7 @@ class App extends Component {
   }
 
   componentWillMount() {
-    fetch(/*'https://billsplit-3e936.firebaseapp.com/API/short.json'*/ 'http://localhost:8080/short')
+    fetch('https://cors-anywhere.herokuapp.com/https://coffee-shop-d6741.firebaseapp.com/API/short.json')
       .then(res => res.json())
       .then(data => {
         this.setData(data);
